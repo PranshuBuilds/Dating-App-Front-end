@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:src="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:layout_below="@id/card">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/bday"/>
+        <TextView
+            android:id="@+id/texttitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/ubuntulight"
+            android:gravity="center_vertical"
+            android:text="PRANSHU ,21 "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/l1"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+
+            android:src="@drawable/headphone"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/headphone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+
+            android:src="@drawable/headphone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_height="40dp"
+            android:src="@drawable/headphone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_height="40dp"
+            android:src="@drawable/headphone"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/l2"
+            android:layout_marginTop="4dp"
+
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="10dp"
+
+            android:layout_height="40dp"
+            android:src="@drawable/book"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/book"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/book"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/book"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/book"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/book"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+
+        android:layout_below="@id/l3"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="10dp"
+
+            android:layout_height="40dp"
+            android:src="@drawable/television"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/television"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/television"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/television"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_below="@id/l4"
+            android:layout_marginTop="4dp"
+
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="10dp"
+
+            android:layout_height="40dp"
+            android:src="@drawable/movie"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginEnd="10dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/movie"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginEnd="10dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/movie"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginEnd="10dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/movie"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginEnd="10dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/movie"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_below="@id/l5"
+            android:layout_marginTop="4dp"
+
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="10dp"
+
+            android:layout_height="40dp"
+            android:src="@drawable/like"/>
+        <TextView
+            android:id="@+id/ttt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/ubuntulight"
+            android:gravity="center_vertical"
+            android:text="Biking, Reading, Swiming, Basketball"/>
+
+
+    </LinearLayout>
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+        android:text="skip"
+        android:background="@drawable/stroke"
+        android:layout_below="@id/l6"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:text="like"
+        android:background="@drawable/stroke"
+        android:layout_below="@id/l6"/>
+
+
+</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
